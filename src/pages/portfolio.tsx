@@ -123,28 +123,30 @@ const Portfolio = () => {
             
             <div className="block md:hidden">
               {photos[0] && (
-                <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
-                  <div className={`absolute inset-0 bg-zinc-800 rounded-lg transition-opacity duration-300 ${loadedImages[photos[0].id] ? 'opacity-0' : 'opacity-100'}`}>
-                    <div 
-                      className="absolute inset-0 bg-gradient-to-r from-transparent via-zinc-700 to-transparent"
-                      style={{
-                        animation: 'shimmer 1.5s infinite',
-                        transform: 'translateX(-100%)'
-                      }}
+                <Link href={href}>
+                  <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
+                    <div className={`absolute inset-0 bg-zinc-800 rounded-lg transition-opacity duration-300 ${loadedImages[photos[0].id] ? 'opacity-0' : 'opacity-100'}`}>
+                      <div 
+                        className="absolute inset-0 bg-gradient-to-r from-transparent via-zinc-700 to-transparent"
+                        style={{
+                          animation: 'shimmer 1.5s infinite',
+                          transform: 'translateX(-100%)'
+                        }}
+                      />
+                    </div>
+                    <Image
+                      src={getStorageUrl(photos[0].url)}
+                      alt={`${title} Preview`}
+                      fill
+                      className={`object-cover transition-opacity duration-300 ${loadedImages[photos[0].id] ? 'opacity-100' : 'opacity-0'}`}
+                      onLoadingComplete={() => handleImageLoad(photos[0].id)}
+                      unoptimized
                     />
+                    <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                      <span className="text-white text-lg font-semibold">Zur Galerie</span>
+                    </div>
                   </div>
-                  <Image
-                    src={getStorageUrl(photos[0].url)}
-                    alt={`${title} Preview`}
-                    fill
-                    className={`object-cover transition-opacity duration-300 ${loadedImages[photos[0].id] ? 'opacity-100' : 'opacity-0'}`}
-                    onLoadingComplete={() => handleImageLoad(photos[0].id)}
-                    unoptimized
-                  />
-                  <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                    <span className="text-white text-lg font-semibold">Zur Galerie</span>
-                  </div>
-                </div>
+                </Link>
               )}
             </div>
           </>
