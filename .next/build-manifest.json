@@ -1,0 +1,82 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/kW7cihnKokR84Pu2Z0Fb1/_buildManifest.js",
+    "static/kW7cihnKokR84Pu2Z0Fb1/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/pages/index-6a631f73b81102af.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/css/d6f45718a201b100.css",
+      "static/chunks/pages/_app-92939d3c5cfead1f.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/pages/_error-5a00309fd5f4b49e.js"
+    ],
+    "/admin": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/490-a88dd1eaf3389cd3.js",
+      "static/chunks/pages/admin-5c3a711ceb03a10f.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/cb355538-67a5bdf4be38f361.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/pages/kontakt-9c61110e34e2621c.js"
+    ],
+    "/motocross": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/490-a88dd1eaf3389cd3.js",
+      "static/chunks/pages/motocross-7543ae3802d75da6.js"
+    ],
+    "/portfolio": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/490-a88dd1eaf3389cd3.js",
+      "static/chunks/pages/portfolio-cb5b2c16757ce213.js"
+    ],
+    "/portrait": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/490-a88dd1eaf3389cd3.js",
+      "static/chunks/pages/portrait-69d7f30136df7388.js"
+    ],
+    "/produktfotografie": [
+      "static/chunks/webpack-91575155f46a76b6.js",
+      "static/chunks/framework-03cd576e71e4cd66.js",
+      "static/chunks/main-2986573b5c54252e.js",
+      "static/chunks/321-2ef823d057fe6736.js",
+      "static/chunks/490-a88dd1eaf3389cd3.js",
+      "static/chunks/pages/produktfotografie-d07de13176e3dee1.js"
+    ]
+  },
+  "ampFirstPages": []
+}
